@@ -1,0 +1,3 @@
+var obj = JSON.parse($response.body);
+obj={"user_id":"100000822034192","unlocks":{"unlocked_documents":{"count":2},"unlocks_remaining":300}};
+$done({body: JSON.stringify(obj)});
